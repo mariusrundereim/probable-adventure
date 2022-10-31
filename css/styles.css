@@ -56,26 +56,23 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   border: 2px solid red;
+  height: 100%;
 }
 
 .main-section:nth-child(1) {
   background: lightblue;
-  min-height: 15rem;
 }
 
 .main-section:nth-child(2) {
   background: lightpink;
-  min-height: 15rem;
 }
 
 .main-section:nth-child(3) {
   background: lightseagreen;
-  min-height: 15rem;
 }
 
 .main-section:nth-child(4) {
   background: lightgray;
-  min-height: 15rem;
 }
 
 /* Section 3 */
